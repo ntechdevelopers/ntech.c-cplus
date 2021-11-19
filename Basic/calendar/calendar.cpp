@@ -2,8 +2,8 @@
 #include<conio.h>
 #include<math.h>
 
-#define vao "greatest_common_divisor.inp"
-#define ra "greatest_common_divisor.out"
+#define vao "calendar.inp"
+#define ra "calendar.out"
 
 int main()
 {
@@ -19,7 +19,7 @@ int main()
 	  fclose (f1);
 	  //xu ly va xuat du lieu
 	  f2=fopen (ra,"w");
-	  if (a>=0&&a<=12&&b>0)
+	  if (a>=0 && a<=12 && b>0)
 	  {
 	       switch (a)
 	      {
